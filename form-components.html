@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+
+<h2>HTML Form Components</h2>
+
+<form action="form-process.php" method="POST">
+  <label for="pname">Product  name:</label><br>
+  <input type="text" id="product_name" name="product_name" placeholder="Enter product name"><br>
+
+<p>
+    <select name="product_condition" id="product_condition">
+        <option value="">Select a condition</option>
+      <option value="New">New</option>
+      <option value="Nearly New">Nearly New</option>
+      <option value="Used">Used</option>
+    
+    </select>
+</p>
+
+<p>Please select your product age:</p>
+<input type="radio" id="1-3" name="product_age" value="1-3 Months">
+<label for="1-3">1-3 Months</label><br>
+<input type="radio" id="4-6" name="product_age" value="4-6 Months">
+<label for="css">4-6 Months</label><br>
+<input type="radio" id="6-12" name="product_age" value="6-12 Months">
+<label for="6-12">6-12 Months</label>
+
+<p>Single check box</p>
+<p>
+    <input type="checkbox" id="subscribe" name="subscribe" value="Yes">
+    <label for="subscribe"> Subscribe</label><br>
+  
+</p>
+
+<p>Multiple check boxes</p>
+<p>
+    <input type="checkbox" id="option1" name="option[]" value="Option 1">
+    <label for="option1"> Option 1</label><br>
+    <input type="checkbox" id="option2" name="option[]" value="Option 2">
+    <label for="option2"> Option 2</label><br>
+  
+</p>
+
+  <input type="submit" value="Submit">
+</form> 
+
+</body>
+</html>
+
